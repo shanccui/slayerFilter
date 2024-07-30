@@ -1,0 +1,41 @@
+{
+  "modelName": "texture",
+  "name": "Liam_Wong_Tokyo_Nights_Phone_Wallpapers_Cyberpunk_Blade_Runner_TOKYOO_TO_KY_OO_Japan_BookMemories+Of+Green",
+  "identifier": "texture:2895306-91254125-43cb-48f5-84cf-6d69ea0122a6",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "107bc49e86adf5bae3400a0dab31fbbe",
+  "assetLocator": "textures/Liam_Wong_Tokyo_Nights_Phone_Wallpapers_Cyberpunk_Blade_Runner_TOKYOO_TO_KY_OO_Japan_BookMemories+Of+Green.jpg",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:2942645-91254125-43cb-48f5-84cf-6d69ea0122a6",
+    "textureExportConfig:2943459-91254125-43cb-48f5-84cf-6d69ea0122a6",
+    "textureExportConfig:2944275-91254125-43cb-48f5-84cf-6d69ea0122a6"
+  ],
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 472,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "107bc49e86adf5bae3400a0dab31fbbe",
+      "colorCount": 135459,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "jpeg",
+      "entropyOfDistribution": 14.120098688730463,
+      "pixelsHigh": 1024,
+      "pixelsWide": 472
+    }
+  ]
+}

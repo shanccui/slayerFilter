@@ -1,0 +1,41 @@
+{
+  "modelName": "texture",
+  "name": "fire_cropped",
+  "identifier": "texture:2895270-91254125-43cb-48f5-84cf-6d69ea0122a6",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "b4bb3ec0d00a8191d1a53b27afce56c2",
+  "assetLocator": "textures/fire_cropped.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:2927408-91254125-43cb-48f5-84cf-6d69ea0122a6",
+    "textureExportConfig:2928194-91254125-43cb-48f5-84cf-6d69ea0122a6",
+    "textureExportConfig:2928982-91254125-43cb-48f5-84cf-6d69ea0122a6"
+  ],
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 472,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "b4bb3ec0d00a8191d1a53b27afce56c2",
+      "colorCount": 35236,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 7.933186424846925,
+      "pixelsHigh": 1024,
+      "pixelsWide": 472
+    }
+  ]
+}

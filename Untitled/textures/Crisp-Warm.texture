@@ -1,0 +1,41 @@
+{
+  "modelName": "texture",
+  "name": "Crisp-Warm",
+  "identifier": "texture:3740861-91254125-43cb-48f5-84cf-6d69ea0122a6",
+  "sourceIdentifier": "color_lut_model:3740859-91254125-43cb-48f5-84cf-6d69ea0122a6",
+  "alphaPremultiplicationMode": "none",
+  "assetDataHash": "98f875e09db8b4d4e28319b683c020bb",
+  "assetLocator": "textures/Crisp-Warm.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:3740863-91254125-43cb-48f5-84cf-6d69ea0122a6",
+    "textureExportConfig:3740865-91254125-43cb-48f5-84cf-6d69ea0122a6",
+    "textureExportConfig:3740867-91254125-43cb-48f5-84cf-6d69ea0122a6"
+  ],
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 512,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 512,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "assetDataHash": "98f875e09db8b4d4e28319b683c020bb",
+      "colorCount": 171087,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 16.872956021332456,
+      "pixelsHigh": 512,
+      "pixelsWide": 512
+    }
+  ]
+}

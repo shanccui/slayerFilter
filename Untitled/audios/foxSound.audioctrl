@@ -1,0 +1,8 @@
+{
+  "modelName": "playback_controller_model",
+  "name": "foxSound",
+  "identifier": "playback_controller_model:2898224-91254125-43cb-48f5-84cf-6d69ea0122a6",
+  "needsContinuousLooping": false,
+  "needsContinuousPlaying": false,
+  "soundIdentifier": "sound:2898160-91254125-43cb-48f5-84cf-6d69ea0122a6"
+}

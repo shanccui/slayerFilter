@@ -1,0 +1,41 @@
+{
+  "modelName": "texture",
+  "name": "Vintage-Blue",
+  "identifier": "texture:3740881-91254125-43cb-48f5-84cf-6d69ea0122a6",
+  "sourceIdentifier": "color_lut_model:3740879-91254125-43cb-48f5-84cf-6d69ea0122a6",
+  "alphaPremultiplicationMode": "none",
+  "assetDataHash": "ee4a4286a86a92aa30f0708ebf8bc8ff",
+  "assetLocator": "textures/Vintage-Blue.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:3740883-91254125-43cb-48f5-84cf-6d69ea0122a6",
+    "textureExportConfig:3740885-91254125-43cb-48f5-84cf-6d69ea0122a6",
+    "textureExportConfig:3740887-91254125-43cb-48f5-84cf-6d69ea0122a6"
+  ],
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 512,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 512,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "assetDataHash": "ee4a4286a86a92aa30f0708ebf8bc8ff",
+      "colorCount": 164700,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 16.7128615250157,
+      "pixelsHigh": 512,
+      "pixelsWide": 512
+    }
+  ]
+}

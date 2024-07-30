@@ -1,0 +1,41 @@
+{
+  "modelName": "texture",
+  "name": "waterdrop",
+  "identifier": "texture:2896378-91254125-43cb-48f5-84cf-6d69ea0122a6",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "ba62c617ec1e35c07ec2df17caa9f173",
+  "assetLocator": "textures/waterdrop.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:2947559-91254125-43cb-48f5-84cf-6d69ea0122a6",
+    "textureExportConfig:2948385-91254125-43cb-48f5-84cf-6d69ea0122a6",
+    "textureExportConfig:2949213-91254125-43cb-48f5-84cf-6d69ea0122a6"
+  ],
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 400,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 400,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "ba62c617ec1e35c07ec2df17caa9f173",
+      "colorCount": 16344,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 3.880640079588854,
+      "pixelsHigh": 400,
+      "pixelsWide": 400
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "modelName": "texture",
+  "name": "Old-Paper",
+  "identifier": "texture:3740871-91254125-43cb-48f5-84cf-6d69ea0122a6",
+  "sourceIdentifier": "color_lut_model:3740869-91254125-43cb-48f5-84cf-6d69ea0122a6",
+  "alphaPremultiplicationMode": "none",
+  "assetDataHash": "b61f7fccf973a94c0e347ab7bce5541e",
+  "assetLocator": "textures/Old-Paper.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:3740873-91254125-43cb-48f5-84cf-6d69ea0122a6",
+    "textureExportConfig:3740875-91254125-43cb-48f5-84cf-6d69ea0122a6",
+    "textureExportConfig:3740877-91254125-43cb-48f5-84cf-6d69ea0122a6"
+  ],
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 512,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 512,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "assetDataHash": "b61f7fccf973a94c0e347ab7bce5541e",
+      "colorCount": 7225,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 10.959335687807108,
+      "pixelsHigh": 512,
+      "pixelsWide": 512
+    }
+  ]
+}

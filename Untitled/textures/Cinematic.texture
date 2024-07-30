@@ -1,0 +1,41 @@
+{
+  "modelName": "texture",
+  "name": "Cinematic",
+  "identifier": "texture:3740841-91254125-43cb-48f5-84cf-6d69ea0122a6",
+  "sourceIdentifier": "color_lut_model:3740839-91254125-43cb-48f5-84cf-6d69ea0122a6",
+  "alphaPremultiplicationMode": "none",
+  "assetDataHash": "a54c26b27adfcc12e835a10d46332830",
+  "assetLocator": "textures/Cinematic.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:3740843-91254125-43cb-48f5-84cf-6d69ea0122a6",
+    "textureExportConfig:3740845-91254125-43cb-48f5-84cf-6d69ea0122a6",
+    "textureExportConfig:3740847-91254125-43cb-48f5-84cf-6d69ea0122a6"
+  ],
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 512,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 512,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "assetDataHash": "a54c26b27adfcc12e835a10d46332830",
+      "colorCount": 200845,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 17.238456521451088,
+      "pixelsHigh": 512,
+      "pixelsWide": 512
+    }
+  ]
+}

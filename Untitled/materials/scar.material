@@ -1,0 +1,28 @@
+{
+  "modelName": "colorPaintMaterial",
+  "name": "scar",
+  "identifier": "colorPaintMaterial:2896018-91254125-43cb-48f5-84cf-6d69ea0122a6",
+  "alphaTestEnabled": false,
+  "alphaTestThreshold": 0,
+  "backgroundInfluence": 0.7000000000000001,
+  "cullMode": "back",
+  "diffuseTextureName": "texture:2895990-91254125-43cb-48f5-84cf-6d69ea0122a6",
+  "diffuseTextureTransform": {
+    "offsetU": 0,
+    "offsetV": 0,
+    "rotation": 0,
+    "scaleU": 1,
+    "scaleV": 1
+  },
+  "doubleSided": false,
+  "importIssues": {},
+  "isDiffuseTextureIdentifierEnabled": true,
+  "paintBrightness": 0.7000000000000001,
+  "readDepth": true,
+  "transparency": 1,
+  "writeDepth": true,
+  "writesToColorBufferAlpha": true,
+  "writesToColorBufferBlue": true,
+  "writesToColorBufferGreen": true,
+  "writesToColorBufferRed": true
+}

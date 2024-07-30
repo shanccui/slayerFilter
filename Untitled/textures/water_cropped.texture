@@ -1,0 +1,40 @@
+{
+  "modelName": "texture",
+  "name": "water_cropped",
+  "identifier": "texture:2895264-91254125-43cb-48f5-84cf-6d69ea0122a6",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "1cef3e0792911f928a8a6d0f5bcea357",
+  "assetLocator": "textures/water_cropped.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:2929772-91254125-43cb-48f5-84cf-6d69ea0122a6",
+    "textureExportConfig:2930564-91254125-43cb-48f5-84cf-6d69ea0122a6"
+  ],
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 472,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "1cef3e0792911f928a8a6d0f5bcea357",
+      "colorCount": 36801,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 6.737763411991274,
+      "pixelsHigh": 1024,
+      "pixelsWide": 472
+    }
+  ]
+}
