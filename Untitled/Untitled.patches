@@ -897,6 +897,38 @@
       },
       {
         "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:329942-ffdd604b-6522-4d00-9bbc-b42981b7090e",
+        "fromPatch": "template_patch_model:2906222-91254125-43cb-48f5-84cf-6d69ea0122a6",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:329940-ffdd604b-6522-4d00-9bbc-b42981b7090e",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:330992-ffdd604b-6522-4d00-9bbc-b42981b7090e",
+        "fromPatch": "template_patch_model:2906222-91254125-43cb-48f5-84cf-6d69ea0122a6",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:330990-ffdd604b-6522-4d00-9bbc-b42981b7090e",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:334152-ffdd604b-6522-4d00-9bbc-b42981b7090e",
+        "fromPatch": "template_patch_model:2906158-91254125-43cb-48f5-84cf-6d69ea0122a6",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:334150-ffdd604b-6522-4d00-9bbc-b42981b7090e",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:341882-ffdd604b-6522-4d00-9bbc-b42981b7090e",
+        "fromPatch": "template_patch_model:2906158-91254125-43cb-48f5-84cf-6d69ea0122a6",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:341880-ffdd604b-6522-4d00-9bbc-b42981b7090e",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
         "identifier": "patch_connection_model:3707947-91254125-43cb-48f5-84cf-6d69ea0122a6",
         "fromPatch": "template_patch_model:3707943-91254125-43cb-48f5-84cf-6d69ea0122a6",
         "fromPort": "1001",
@@ -976,6 +1008,10 @@
           "consumer_patch_model:2920353-91254125-43cb-48f5-84cf-6d69ea0122a6",
           "consumer_patch_model:2920357-91254125-43cb-48f5-84cf-6d69ea0122a6",
           "consumer_patch_model:2920361-91254125-43cb-48f5-84cf-6d69ea0122a6",
+          "consumer_patch_model:329940-ffdd604b-6522-4d00-9bbc-b42981b7090e",
+          "consumer_patch_model:330990-ffdd604b-6522-4d00-9bbc-b42981b7090e",
+          "consumer_patch_model:334150-ffdd604b-6522-4d00-9bbc-b42981b7090e",
+          "consumer_patch_model:341880-ffdd604b-6522-4d00-9bbc-b42981b7090e",
           "consumer_patch_model:3716401-91254125-43cb-48f5-84cf-6d69ea0122a6",
           "consumer_patch_model:3747073-91254125-43cb-48f5-84cf-6d69ea0122a6",
           "producer_patch_model:3712559-91254125-43cb-48f5-84cf-6d69ea0122a6",
@@ -1089,7 +1125,7 @@
         "object": "rectangle_model:2895278-91254125-43cb-48f5-84cf-6d69ea0122a6",
         "objectProperty": "visible",
         "position": [
-          5108,
+          5132,
           524
         ],
         "values": [
@@ -1475,7 +1511,7 @@
         "objectProperty": "audio_playback_controller_play",
         "position": [
           5252,
-          2972
+          2996
         ]
       },
       {
@@ -1487,6 +1523,86 @@
         "position": [
           5180,
           1196
+        ]
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "haircolor",
+        "identifier": "consumer_patch_model:329940-ffdd604b-6522-4d00-9bbc-b42981b7090e",
+        "object": "rectangle_model:327852-ffdd604b-6522-4d00-9bbc-b42981b7090e",
+        "objectProperty": "visible",
+        "position": [
+          5108,
+          1268
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "bool",
+              "v": true
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "eyeColor",
+        "identifier": "consumer_patch_model:330990-ffdd604b-6522-4d00-9bbc-b42981b7090e",
+        "object": "block_scene_model:322648-ffdd604b-6522-4d00-9bbc-b42981b7090e",
+        "objectProperty": "visible",
+        "position": [
+          5315.4760271326495,
+          1011.8642149304254
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "bool",
+              "v": true
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "giyuEyeColor",
+        "identifier": "consumer_patch_model:334150-ffdd604b-6522-4d00-9bbc-b42981b7090e",
+        "object": "block_scene_model:332044-ffdd604b-6522-4d00-9bbc-b42981b7090e",
+        "objectProperty": "visible",
+        "position": [
+          5252,
+          2924
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "bool",
+              "v": true
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "giyuHairColor",
+        "identifier": "consumer_patch_model:341880-ffdd604b-6522-4d00-9bbc-b42981b7090e",
+        "object": "rectangle_model:341792-ffdd604b-6522-4d00-9bbc-b42981b7090e",
+        "objectProperty": "visible",
+        "position": [
+          5252,
+          2780
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "bool",
+              "v": true
+            }
+          }
         ]
       },
       {
@@ -1572,6 +1688,13 @@
         ],
         "shaderInterface": "shader_interface_model:3713493-91254125-43cb-48f5-84cf-6d69ea0122a6",
         "values": [
+          {
+            "port": "1024",
+            "value": {
+              "t": "double",
+              "v": 0.46443631421174164
+            }
+          },
           {
             "port": "768",
             "value": {
@@ -2125,8 +2248,8 @@
         "name": "Switch",
         "identifier": "template_patch_model:2906158-91254125-43cb-48f5-84cf-6d69ea0122a6",
         "position": [
-          5041.25,
-          2825.2000000000003
+          5036,
+          2828
         ],
         "templateId": "builtin.toggle"
       },

@@ -31,7 +31,8 @@
         "audio",
         "scripts",
         "color_luts",
-        "shaders"
+        "shaders",
+        "blocks"
       ]
     }
   ],
@@ -174,7 +175,7 @@
         },
         {
           "modelName": "personSegmentationTexture",
-          "name": "segmentationMaskTexture0",
+          "name": "personSegmentation",
           "identifier": "personSegmentationTexture:2897535-91254125-43cb-48f5-84cf-6d69ea0122a6"
         },
         {
@@ -200,6 +201,15 @@
         },
         {
           "sectionFileLocation": "textures/Vintage-Blue.texture"
+        },
+        {
+          "modelName": "hairSegmentationTexture",
+          "name": "hairSegmentationMask",
+          "identifier": "hairSegmentationTexture:324728-ffdd604b-6522-4d00-9bbc-b42981b7090e",
+          "modelType": "hair"
+        },
+        {
+          "sectionFileLocation": "textures/SkinSmoothingTexture.texture"
         }
       ]
     },
@@ -247,7 +257,16 @@
           "sectionFileLocation": "materials/particle.material"
         },
         {
-          "sectionFileLocation": "materials/contrast-2.material"
+          "sectionFileLocation": "materials/contrastfilter.material"
+        },
+        {
+          "sectionFileLocation": "materials/tanjirohair.material"
+        },
+        {
+          "sectionFileLocation": "materials/giyuhair.material"
+        },
+        {
+          "sectionFileLocation": "materials/material0-2.material"
         }
       ]
     },
@@ -937,6 +956,18 @@
           "identifier": "textureExportConfig:3740887-91254125-43cb-48f5-84cf-6d69ea0122a6",
           "accuracy": "best",
           "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:346162-ffdd604b-6522-4d00-9bbc-b42981b7090e",
+          "accuracy": "best",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:346164-ffdd604b-6522-4d00-9bbc-b42981b7090e",
+          "accuracy": "best",
+          "targetFormat": 2
         }
       ]
     },
@@ -997,7 +1028,7 @@
       "effectUsesAutomaticAlphaSort": false,
       "effectUsesAutomaticInstructions": true,
       "effectUsesBlockModulesConfigExtras": false,
-      "effectUsesBlocks": false,
+      "effectUsesBlocks": true,
       "effectUsesBlocksDownloadable": false,
       "effectUsesBlocksScripting": false,
       "effectUsesBodyTracking": false,
@@ -1060,7 +1091,7 @@
       "effectUsesFaceExtraction": false,
       "effectUsesFaceTracker": true,
       "effectUsesFaceTracker3D": true,
-      "effectUsesFaceTracker96": false,
+      "effectUsesFaceTracker96": true,
       "effectUsesFaceTrackingScripting2D": false,
       "effectUsesFaceTrueScale": false,
       "effectUsesFaceWave": false,
@@ -1077,7 +1108,7 @@
       "effectUsesGlslEs300Features": false,
       "effectUsesGltfPbrShader": false,
       "effectUsesGraphQL": false,
-      "effectUsesHairSegmentation": false,
+      "effectUsesHairSegmentation": true,
       "effectUsesHalfFloatRenderPass": false,
       "effectUsesHandGestureKeypoints": false,
       "effectUsesHandTracker": false,
@@ -1088,12 +1119,12 @@
       "effectUsesIdTracker": false,
       "effectUsesImageAntiAliasing": false,
       "effectUsesImageAssets": false,
-      "effectUsesImageBasedLighting": false,
+      "effectUsesImageBasedLighting": true,
       "effectUsesInstruction": true,
       "effectUsesIntent": false,
       "effectUsesInterEffectLinking": false,
       "effectUsesInternalScriptingAPI": false,
-      "effectUsesIrisTracking": false,
+      "effectUsesIrisTracking": true,
       "effectUsesJavaScript": true,
       "effectUsesJavaScriptRuntimeForPatches": false,
       "effectUsesJavaScriptScripting": true,
@@ -1129,7 +1160,7 @@
       "effectUsesOpticalFlow": false,
       "effectUsesOpusCodec": false,
       "effectUsesOverlayOutput": false,
-      "effectUsesPBRMaterial": false,
+      "effectUsesPBRMaterial": true,
       "effectUsesParticipant": false,
       "effectUsesParticleSystem": true,
       "effectUsesPeerOutput": false,
@@ -1181,7 +1212,7 @@
       "effectUsesShaderPicking": false,
       "effectUsesShadows": false,
       "effectUsesSkinSegmentation": false,
-      "effectUsesSkinSmoothing": false,
+      "effectUsesSkinSmoothing": true,
       "effectUsesSpaceSetup": false,
       "effectUsesSpatialGesture": false,
       "effectUsesSpatialHandTracking": false,
@@ -1205,10 +1236,10 @@
       "effectUsesUiPlanarBackend": false,
       "effectUsesUnifiedTargetTracking": false,
       "effectUsesUnitsScriptingModule": false,
-      "effectUsesVariadicMath": false,
+      "effectUsesVariadicMath": true,
       "effectUsesVertexTextureFetch": false,
       "effectUsesVisualShaders": true,
-      "effectUsesVisualShadersSdf": false,
+      "effectUsesVisualShadersSdf": true,
       "effectUsesVoiceInteraction": false,
       "effectUsesWarpPostProcessor": false,
       "effectUsesWarpPreProcessor": false,
@@ -1228,7 +1259,7 @@
       "faceExpressionFittingMinVersion": 15,
       "faceExpressionFittingRTRRetargetingMinVersion": 1,
       "faceTrackerIsEnabled": false,
-      "faceTrackerMaxFaces": 1,
+      "faceTrackerMaxFaces": 2,
       "faceTrackerMinVersion": 13,
       "facewaveMinVersion": 1,
       "hairSegmentationMinVersion": 1,
@@ -1251,7 +1282,7 @@
       "internalScriptingAPIEventStream": false,
       "internalScriptingAPIExperimentalCameraInfo": false,
       "internalScriptingAPIGlobalTransform": false,
-      "manuallyEnabledItemsIds": null,
+      "manuallyEnabledItemsIds": [],
       "maxParticipantsCount": 0,
       "multiclassSegmentationMinVersion": 3004,
       "objectTrackerMaxObjects": 1,
@@ -1574,6 +1605,54 @@
           "slicesPerCol": 8,
           "slicesPerRow": 8,
           "textureIdentifier": "texture:3740881-91254125-43cb-48f5-84cf-6d69ea0122a6"
+        }
+      ]
+    },
+    {
+      "modelName": "asset_attributions_model",
+      "identifier": "asset_attributions_model:562-ffdd604b-6522-4d00-9bbc-b42981b7090e",
+      "children": [
+        {
+          "modelName": "asset_attribution_model",
+          "identifier": "asset_attribution_model:321602-ffdd604b-6522-4d00-9bbc-b42981b7090e",
+          "assetAuthor": "Spark AR Assets",
+          "assetModelIdentifier": "block_model:321598-ffdd604b-6522-4d00-9bbc-b42981b7090e",
+          "assetTitle": "Eye Color",
+          "assetURLString": "",
+          "licenseModelIdentifier": "license_model:321600-ffdd604b-6522-4d00-9bbc-b42981b7090e"
+        }
+      ]
+    },
+    {
+      "modelName": "licenses_model",
+      "identifier": "licenses_model:564-ffdd604b-6522-4d00-9bbc-b42981b7090e",
+      "children": [
+        {
+          "modelName": "license_model",
+          "name": "Creative Commons Attribution 4.0",
+          "identifier": "license_model:321600-ffdd604b-6522-4d00-9bbc-b42981b7090e",
+          "linkURLString": "https://creativecommons.org/licenses/by/4.0/",
+          "slug": "CC BY 4.0"
+        }
+      ]
+    },
+    {
+      "modelName": "block_documents_model",
+      "identifier": "block_documents_model:566-ffdd604b-6522-4d00-9bbc-b42981b7090e",
+      "children": [
+        {
+          "modelName": "block_model",
+          "name": "eyeColor",
+          "identifier": "block_model:321598-ffdd604b-6522-4d00-9bbc-b42981b7090e",
+          "assetDataHash": "839b9991c316aaa752f987bbb9f76081",
+          "assetLocator": "blocks/eyeColor/eyeColor.arblock",
+          "excludeDuringExport": true,
+          "externalSourceLocator": "sparkarstudio://arlibrary/facebook/block/2600053320237291",
+          "instances": [
+            "block_scene_model:322648-ffdd604b-6522-4d00-9bbc-b42981b7090e",
+            "block_scene_model:332044-ffdd604b-6522-4d00-9bbc-b42981b7090e"
+          ],
+          "isExternalAsset": true
         }
       ]
     }
