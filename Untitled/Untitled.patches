@@ -89,14 +89,6 @@
       },
       {
         "modelName": "patch_connection_model",
-        "identifier": "patch_connection_model:2906058-91254125-43cb-48f5-84cf-6d69ea0122a6",
-        "fromPatch": "template_patch_model:2906118-91254125-43cb-48f5-84cf-6d69ea0122a6",
-        "fromPort": "1003",
-        "toPatch": "template_patch_model:2906112-91254125-43cb-48f5-84cf-6d69ea0122a6",
-        "toPort": "1"
-      },
-      {
-        "modelName": "patch_connection_model",
         "identifier": "patch_connection_model:2906060-91254125-43cb-48f5-84cf-6d69ea0122a6",
         "fromPatch": "template_patch_model:2906090-91254125-43cb-48f5-84cf-6d69ea0122a6",
         "fromPort": "100",
@@ -401,14 +393,6 @@
       },
       {
         "modelName": "patch_connection_model",
-        "identifier": "patch_connection_model:2906202-91254125-43cb-48f5-84cf-6d69ea0122a6",
-        "fromPatch": "template_patch_model:2906144-91254125-43cb-48f5-84cf-6d69ea0122a6",
-        "fromPort": "100",
-        "toPatch": "template_patch_model:2906020-91254125-43cb-48f5-84cf-6d69ea0122a6",
-        "toPort": "1"
-      },
-      {
-        "modelName": "patch_connection_model",
         "identifier": "patch_connection_model:2906204-91254125-43cb-48f5-84cf-6d69ea0122a6",
         "fromPatch": "template_patch_model:2906304-91254125-43cb-48f5-84cf-6d69ea0122a6",
         "fromPort": "100",
@@ -422,14 +406,6 @@
         "fromPort": "100",
         "toPatch": "template_patch_model:2906222-91254125-43cb-48f5-84cf-6d69ea0122a6",
         "toPort": "2"
-      },
-      {
-        "modelName": "patch_connection_model",
-        "identifier": "patch_connection_model:2906208-91254125-43cb-48f5-84cf-6d69ea0122a6",
-        "fromPatch": "template_patch_model:2906182-91254125-43cb-48f5-84cf-6d69ea0122a6",
-        "fromPort": "100",
-        "toPatch": "template_patch_model:2906144-91254125-43cb-48f5-84cf-6d69ea0122a6",
-        "toPort": "1"
       },
       {
         "modelName": "patch_connection_model",
@@ -1166,6 +1142,14 @@
         "fromPort": "0",
         "toPatch": "template_patch_model:427868-ffdd604b-6522-4d00-9bbc-b42981b7090e",
         "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:544240-484ca234-5c7e-4244-ba90-a5cee94ff30a",
+        "fromPatch": "template_patch_model:2906182-91254125-43cb-48f5-84cf-6d69ea0122a6",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:2906020-91254125-43cb-48f5-84cf-6d69ea0122a6",
+        "toPort": "1"
       }
     ],
     "graphs": [
@@ -1241,7 +1225,6 @@
           "template_patch_model:2906102-91254125-43cb-48f5-84cf-6d69ea0122a6",
           "template_patch_model:2906104-91254125-43cb-48f5-84cf-6d69ea0122a6",
           "template_patch_model:2906108-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "template_patch_model:2906112-91254125-43cb-48f5-84cf-6d69ea0122a6",
           "template_patch_model:2906118-91254125-43cb-48f5-84cf-6d69ea0122a6",
           "template_patch_model:2906122-91254125-43cb-48f5-84cf-6d69ea0122a6",
           "template_patch_model:2906126-91254125-43cb-48f5-84cf-6d69ea0122a6",
@@ -1249,7 +1232,6 @@
           "template_patch_model:2906132-91254125-43cb-48f5-84cf-6d69ea0122a6",
           "template_patch_model:2906134-91254125-43cb-48f5-84cf-6d69ea0122a6",
           "template_patch_model:2906142-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "template_patch_model:2906144-91254125-43cb-48f5-84cf-6d69ea0122a6",
           "template_patch_model:2906158-91254125-43cb-48f5-84cf-6d69ea0122a6",
           "template_patch_model:2906160-91254125-43cb-48f5-84cf-6d69ea0122a6",
           "template_patch_model:2906162-91254125-43cb-48f5-84cf-6d69ea0122a6",
@@ -1287,7 +1269,6 @@
           "template_patch_model:2906308-91254125-43cb-48f5-84cf-6d69ea0122a6",
           "template_patch_model:2906310-91254125-43cb-48f5-84cf-6d69ea0122a6",
           "template_patch_model:326725-484ca234-5c7e-4244-ba90-a5cee94ff30a",
-          "template_patch_model:331303-484ca234-5c7e-4244-ba90-a5cee94ff30a",
           "template_patch_model:332453-484ca234-5c7e-4244-ba90-a5cee94ff30a",
           "template_patch_model:333607-484ca234-5c7e-4244-ba90-a5cee94ff30a",
           "template_patch_model:333631-484ca234-5c7e-4244-ba90-a5cee94ff30a",
@@ -2028,8 +2009,8 @@
         "name": "Pulse",
         "identifier": "template_patch_model:2906020-91254125-43cb-48f5-84cf-6d69ea0122a6",
         "position": [
-          4753.25,
-          1889.2000000000003
+          4604,
+          1892
         ],
         "templateId": "builtin.pulse"
       },
@@ -2058,8 +2039,8 @@
         "name": "Switch",
         "identifier": "template_patch_model:2906026-91254125-43cb-48f5-84cf-6d69ea0122a6",
         "position": [
-          4921.25,
-          1889.2000000000003
+          4868,
+          1868
         ],
         "templateId": "builtin.toggle"
       },
@@ -2375,45 +2356,10 @@
         "name": "Face Finder",
         "identifier": "template_patch_model:2906108-91254125-43cb-48f5-84cf-6d69ea0122a6",
         "position": [
-          121.25,
-          2609.2000000000003
+          332,
+          2564
         ],
         "templateId": "builtin.faceTracker"
-      },
-      {
-        "modelName": "template_patch_model",
-        "name": "If Then Else",
-        "identifier": "template_patch_model:2906112-91254125-43cb-48f5-84cf-6d69ea0122a6",
-        "position": [
-          1580,
-          2132
-        ],
-        "templateId": "builtin.IfThenElseOperator",
-        "values": [
-          {
-            "port": "2",
-            "value": {
-              "t": "vec3",
-              "v": [
-                1.2000000476837158,
-                1.2,
-                0
-              ]
-            }
-          },
-          {
-            "port": "3",
-            "value": {
-              "t": "vec3",
-              "v": [
-                1,
-                1,
-                0
-              ]
-            }
-          }
-        ],
-        "variantInfo": "vec3"
       },
       {
         "modelName": "template_patch_model",
@@ -2508,26 +2454,6 @@
       },
       {
         "modelName": "template_patch_model",
-        "name": "Delay",
-        "identifier": "template_patch_model:2906144-91254125-43cb-48f5-84cf-6d69ea0122a6",
-        "position": [
-          4465.25,
-          1889.2000000000003
-        ],
-        "templateId": "builtin.delay",
-        "values": [
-          {
-            "port": "2",
-            "value": {
-              "t": "double",
-              "v": 0.5
-            }
-          }
-        ],
-        "variantInfo": "float"
-      },
-      {
-        "modelName": "template_patch_model",
         "name": "Switch",
         "identifier": "template_patch_model:2906158-91254125-43cb-48f5-84cf-6d69ea0122a6",
         "position": [
@@ -2601,8 +2527,8 @@
         "name": "Face Select",
         "identifier": "template_patch_model:2906184-91254125-43cb-48f5-84cf-6d69ea0122a6",
         "position": [
-          356,
-          2588
+          572,
+          2540
         ],
         "templateId": "builtin.facePicker",
         "values": [
@@ -3044,25 +2970,14 @@
             "value": {
               "t": "vec3",
               "v": [
-                1.5,
-                1.5,
-                1.5
+                1.2,
+                1.2,
+                1.2
               ]
             }
           }
         ],
         "variantInfo": "vec3"
-      },
-      {
-        "modelName": "template_patch_model",
-        "name": "If Then Else",
-        "identifier": "template_patch_model:331303-484ca234-5c7e-4244-ba90-a5cee94ff30a",
-        "position": [
-          1045.0457620320917,
-          2926.1410357255754
-        ],
-        "templateId": "builtin.IfThenElseOperator",
-        "variantInfo": "float"
       },
       {
         "modelName": "template_patch_model",
@@ -3112,9 +3027,9 @@
             "value": {
               "t": "vec3",
               "v": [
-                1.5,
-                1.5,
-                1.5
+                1.2,
+                1.2,
+                1.2
               ]
             }
           }

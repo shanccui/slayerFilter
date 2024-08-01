@@ -443,6 +443,14 @@
           "assetDataHash": "1cc42a67fed8018d4f7c3528c3058bd7",
           "assetLocator": "scripts/script.js",
           "isExternalAsset": true
+        },
+        {
+          "modelName": "script",
+          "name": "animateUI.js",
+          "identifier": "script:420629-484ca234-5c7e-4244-ba90-a5cee94ff30a",
+          "assetDataHash": "c56ecd97de35f9f7f4c644a901189848",
+          "assetLocator": "scripts/animateUI.js",
+          "isExternalAsset": true
         }
       ]
     },
@@ -1357,7 +1365,9 @@
       "internalScriptingAPIEventStream": false,
       "internalScriptingAPIExperimentalCameraInfo": false,
       "internalScriptingAPIGlobalTransform": false,
-      "manuallyEnabledItemsIds": [],
+      "manuallyEnabledItemsIds": [
+        "faceTrackerMaxFaces"
+      ],
       "maxParticipantsCount": 0,
       "multiclassSegmentationMinVersion": 3004,
       "objectTrackerMaxObjects": 1,
