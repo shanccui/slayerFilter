@@ -29,6 +29,7 @@
   "children": [
     {
       "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
       "assetDataHash": "5e96f598ac98e2e83ea6a293c8825cf0",
       "colorCount": 163770,
       "detectedAlphaChannel": "no_alpha",

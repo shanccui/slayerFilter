@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "S4B (1)",
+  "identifier": "texture:361651-484ca234-5c7e-4244-ba90-a5cee94ff30a",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "6b4662d395b123b4ffb246eecc3d4a07",
+  "assetLocator": "textures/S4B (1).png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 1024,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "6b4662d395b123b4ffb246eecc3d4a07",
+      "colorCount": 72019,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 11.366792089251467,
+      "pixelsHigh": 1024,
+      "pixelsWide": 1024
+    }
+  ]
+}

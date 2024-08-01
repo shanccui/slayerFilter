@@ -3,7 +3,7 @@
   "name": "Effect",
   "identifier": "document:2883344-91254125-43cb-48f5-84cf-6d69ea0122a6",
   "id": "28833429125412543cb48f584cf6d69ea0122a6",
-  "revision": "29711149125412543cb48f584cf6d69ea0122a6",
+  "revision": "817965ffdd604b65224d009bbcb42981b7090e",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -89,7 +89,7 @@
           "identifier": "sequenceTexture:2895671-91254125-43cb-48f5-84cf-6d69ea0122a6",
           "frameRate": 24,
           "isSourceTextureIdentifierEnabled": true,
-          "sourceTextureIdentifier": "textureGroup:2895657-91254125-43cb-48f5-84cf-6d69ea0122a6"
+          "sourceTextureIdentifier": "textureGroup:359227-484ca234-5c7e-4244-ba90-a5cee94ff30a"
         },
         {
           "modelName": "textureGroup",
@@ -121,14 +121,14 @@
           "name": "SlayerLeftAnimation",
           "identifier": "sequenceTexture:2895645-91254125-43cb-48f5-84cf-6d69ea0122a6",
           "isSourceTextureIdentifierEnabled": true,
-          "sourceTextureIdentifier": "textureGroup:2895617-91254125-43cb-48f5-84cf-6d69ea0122a6"
+          "sourceTextureIdentifier": "textureGroup:360431-484ca234-5c7e-4244-ba90-a5cee94ff30a"
         },
         {
           "modelName": "sequenceTexture",
           "name": "SlayerRightAnimation",
           "identifier": "sequenceTexture:2895609-91254125-43cb-48f5-84cf-6d69ea0122a6",
           "isSourceTextureIdentifierEnabled": true,
-          "sourceTextureIdentifier": "textureGroup:2895611-91254125-43cb-48f5-84cf-6d69ea0122a6"
+          "sourceTextureIdentifier": "textureGroup:361653-484ca234-5c7e-4244-ba90-a5cee94ff30a"
         },
         {
           "modelName": "textureGroup",
@@ -210,6 +210,81 @@
         },
         {
           "sectionFileLocation": "textures/SkinSmoothingTexture.texture"
+        },
+        {
+          "modelName": "textureGroup",
+          "name": "[1-4]",
+          "identifier": "textureGroup:359227-484ca234-5c7e-4244-ba90-a5cee94ff30a",
+          "sequenceFramesTextureIdentifiers": [
+            "texture:359217-484ca234-5c7e-4244-ba90-a5cee94ff30a",
+            "texture:359213-484ca234-5c7e-4244-ba90-a5cee94ff30a",
+            "texture:359221-484ca234-5c7e-4244-ba90-a5cee94ff30a",
+            "texture:359225-484ca234-5c7e-4244-ba90-a5cee94ff30a"
+          ],
+          "children": [
+            {
+              "sectionFileLocation": "textures/Questions (2).texture"
+            },
+            {
+              "sectionFileLocation": "textures/S1 (1).texture"
+            },
+            {
+              "sectionFileLocation": "textures/S3 (1).texture"
+            },
+            {
+              "sectionFileLocation": "textures/S4 (1).texture"
+            }
+          ]
+        },
+        {
+          "modelName": "textureGroup",
+          "name": "S[1-4]",
+          "identifier": "textureGroup:360431-484ca234-5c7e-4244-ba90-a5cee94ff30a",
+          "sequenceFramesTextureIdentifiers": [
+            "texture:360417-484ca234-5c7e-4244-ba90-a5cee94ff30a",
+            "texture:360421-484ca234-5c7e-4244-ba90-a5cee94ff30a",
+            "texture:360425-484ca234-5c7e-4244-ba90-a5cee94ff30a",
+            "texture:360429-484ca234-5c7e-4244-ba90-a5cee94ff30a"
+          ],
+          "children": [
+            {
+              "sectionFileLocation": "textures/S1A (1).texture"
+            },
+            {
+              "sectionFileLocation": "textures/S2A (1).texture"
+            },
+            {
+              "sectionFileLocation": "textures/S3A (1).texture"
+            },
+            {
+              "sectionFileLocation": "textures/S4A (1).texture"
+            }
+          ]
+        },
+        {
+          "modelName": "textureGroup",
+          "name": "S[1-4]",
+          "identifier": "textureGroup:361653-484ca234-5c7e-4244-ba90-a5cee94ff30a",
+          "sequenceFramesTextureIdentifiers": [
+            "texture:361639-484ca234-5c7e-4244-ba90-a5cee94ff30a",
+            "texture:361643-484ca234-5c7e-4244-ba90-a5cee94ff30a",
+            "texture:361647-484ca234-5c7e-4244-ba90-a5cee94ff30a",
+            "texture:361651-484ca234-5c7e-4244-ba90-a5cee94ff30a"
+          ],
+          "children": [
+            {
+              "sectionFileLocation": "textures/S1B (1).texture"
+            },
+            {
+              "sectionFileLocation": "textures/S2B (1).texture"
+            },
+            {
+              "sectionFileLocation": "textures/S3B (1).texture"
+            },
+            {
+              "sectionFileLocation": "textures/S4B (1).texture"
+            }
+          ]
         }
       ]
     },

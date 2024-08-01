@@ -7,7 +7,7 @@
   "blendMode": "alpha",
   "colorEncoding": "linear",
   "cullMode": "back",
-  "diffuseFactor": "0xff001056",
+  "diffuseFactor": "0xff00289e",
   "diffuseTextureName": "cameraTexture:2897817-91254125-43cb-48f5-84cf-6d69ea0122a6",
   "diffuseTextureTransform": {
     "offsetU": 0,
@@ -68,7 +68,7 @@
     "scaleU": 1,
     "scaleV": 1
   },
-  "transparency": 0.49683948863636435,
+  "transparency": 0.4968394886363644,
   "writeDepth": false,
   "writesToColorBufferAlpha": true,
   "writesToColorBufferBlue": true,

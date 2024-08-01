@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "S3B (1)",
+  "identifier": "texture:361647-484ca234-5c7e-4244-ba90-a5cee94ff30a",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "4c5570f121a05457c0053779c1a0b162",
+  "assetLocator": "textures/S3B (1).png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 1024,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "4c5570f121a05457c0053779c1a0b162",
+      "colorCount": 28071,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 9.202336841424964,
+      "pixelsHigh": 1024,
+      "pixelsWide": 1024
+    }
+  ]
+}
