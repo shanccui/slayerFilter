@@ -3,7 +3,7 @@
   "name": "Effect",
   "identifier": "document:2883344-91254125-43cb-48f5-84cf-6d69ea0122a6",
   "id": "28833429125412543cb48f584cf6d69ea0122a6",
-  "revision": "817965ffdd604b65224d009bbcb42981b7090e",
+  "revision": "47717101328307d10644149268e46596f5de72",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -59,62 +59,12 @@
           "sectionFileLocation": "textures/water_cropped.texture"
         },
         {
-          "modelName": "textureGroup",
-          "name": "S[1-4]2",
-          "identifier": "textureGroup:2895611-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "sequenceFramesTextureIdentifiers": [
-            "texture:2895689-91254125-43cb-48f5-84cf-6d69ea0122a6",
-            "texture:2895625-91254125-43cb-48f5-84cf-6d69ea0122a6",
-            "texture:2895635-91254125-43cb-48f5-84cf-6d69ea0122a6",
-            "texture:2895643-91254125-43cb-48f5-84cf-6d69ea0122a6"
-          ],
-          "children": [
-            {
-              "sectionFileLocation": "textures/S1B(2).texture"
-            },
-            {
-              "sectionFileLocation": "textures/S2B(2).texture"
-            },
-            {
-              "sectionFileLocation": "textures/S3B(2).texture"
-            },
-            {
-              "sectionFileLocation": "textures/S4B(2).texture"
-            }
-          ]
-        },
-        {
           "modelName": "sequenceTexture",
           "name": "SlayerQuestions",
           "identifier": "sequenceTexture:2895671-91254125-43cb-48f5-84cf-6d69ea0122a6",
           "frameRate": 24,
           "isSourceTextureIdentifierEnabled": true,
-          "sourceTextureIdentifier": "textureGroup:359227-484ca234-5c7e-4244-ba90-a5cee94ff30a"
-        },
-        {
-          "modelName": "textureGroup",
-          "name": "D[1-4]3",
-          "identifier": "textureGroup:2895657-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "sequenceFramesTextureIdentifiers": [
-            "texture:2895675-91254125-43cb-48f5-84cf-6d69ea0122a6",
-            "texture:2895563-91254125-43cb-48f5-84cf-6d69ea0122a6",
-            "texture:2895569-91254125-43cb-48f5-84cf-6d69ea0122a6",
-            "texture:2895583-91254125-43cb-48f5-84cf-6d69ea0122a6"
-          ],
-          "children": [
-            {
-              "sectionFileLocation": "textures/D1(1).texture"
-            },
-            {
-              "sectionFileLocation": "textures/D2(1).texture"
-            },
-            {
-              "sectionFileLocation": "textures/D3(1).texture"
-            },
-            {
-              "sectionFileLocation": "textures/D4(1).texture"
-            }
-          ]
+          "sourceTextureIdentifier": "textureGroup:475992-01328307-d106-4414-9268-e46596f5de72"
         },
         {
           "modelName": "sequenceTexture",
@@ -129,31 +79,6 @@
           "identifier": "sequenceTexture:2895609-91254125-43cb-48f5-84cf-6d69ea0122a6",
           "isSourceTextureIdentifierEnabled": true,
           "sourceTextureIdentifier": "textureGroup:361653-484ca234-5c7e-4244-ba90-a5cee94ff30a"
-        },
-        {
-          "modelName": "textureGroup",
-          "name": "S[1-4]1",
-          "identifier": "textureGroup:2895617-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "sequenceFramesTextureIdentifiers": [
-            "texture:2895557-91254125-43cb-48f5-84cf-6d69ea0122a6",
-            "texture:2895627-91254125-43cb-48f5-84cf-6d69ea0122a6",
-            "texture:2895639-91254125-43cb-48f5-84cf-6d69ea0122a6",
-            "texture:2895579-91254125-43cb-48f5-84cf-6d69ea0122a6"
-          ],
-          "children": [
-            {
-              "sectionFileLocation": "textures/S1A(2).texture"
-            },
-            {
-              "sectionFileLocation": "textures/S2A(2).texture"
-            },
-            {
-              "sectionFileLocation": "textures/S3A(2).texture"
-            },
-            {
-              "sectionFileLocation": "textures/S4A(2).texture"
-            }
-          ]
         },
         {
           "sectionFileLocation": "textures/kocho.texture"
@@ -213,31 +138,6 @@
         },
         {
           "modelName": "textureGroup",
-          "name": "[1-4]",
-          "identifier": "textureGroup:359227-484ca234-5c7e-4244-ba90-a5cee94ff30a",
-          "sequenceFramesTextureIdentifiers": [
-            "texture:359217-484ca234-5c7e-4244-ba90-a5cee94ff30a",
-            "texture:359213-484ca234-5c7e-4244-ba90-a5cee94ff30a",
-            "texture:359221-484ca234-5c7e-4244-ba90-a5cee94ff30a",
-            "texture:359225-484ca234-5c7e-4244-ba90-a5cee94ff30a"
-          ],
-          "children": [
-            {
-              "sectionFileLocation": "textures/Questions (2).texture"
-            },
-            {
-              "sectionFileLocation": "textures/S1 (1).texture"
-            },
-            {
-              "sectionFileLocation": "textures/S3 (1).texture"
-            },
-            {
-              "sectionFileLocation": "textures/S4 (1).texture"
-            }
-          ]
-        },
-        {
-          "modelName": "textureGroup",
           "name": "S[1-4]",
           "identifier": "textureGroup:360431-484ca234-5c7e-4244-ba90-a5cee94ff30a",
           "sequenceFramesTextureIdentifiers": [
@@ -263,7 +163,7 @@
         },
         {
           "modelName": "textureGroup",
-          "name": "S[1-4]",
+          "name": "S[1-4]0",
           "identifier": "textureGroup:361653-484ca234-5c7e-4244-ba90-a5cee94ff30a",
           "sequenceFramesTextureIdentifiers": [
             "texture:361639-484ca234-5c7e-4244-ba90-a5cee94ff30a",
@@ -283,6 +183,56 @@
             },
             {
               "sectionFileLocation": "textures/S4B (1).texture"
+            }
+          ]
+        },
+        {
+          "modelName": "textureGroup",
+          "name": "[1-4]",
+          "identifier": "textureGroup:433952-01328307-d106-4414-9268-e46596f5de72",
+          "sequenceFramesTextureIdentifiers": [
+            "texture:433942-01328307-d106-4414-9268-e46596f5de72",
+            "texture:433938-01328307-d106-4414-9268-e46596f5de72",
+            "texture:433946-01328307-d106-4414-9268-e46596f5de72",
+            "texture:433950-01328307-d106-4414-9268-e46596f5de72"
+          ],
+          "children": [
+            {
+              "sectionFileLocation": "textures/Questions (3).texture"
+            },
+            {
+              "sectionFileLocation": "textures/S1 (2).texture"
+            },
+            {
+              "sectionFileLocation": "textures/S3 (2).texture"
+            },
+            {
+              "sectionFileLocation": "textures/S4 (2).texture"
+            }
+          ]
+        },
+        {
+          "modelName": "textureGroup",
+          "name": "S[1-4]",
+          "identifier": "textureGroup:475992-01328307-d106-4414-9268-e46596f5de72",
+          "sequenceFramesTextureIdentifiers": [
+            "texture:475978-01328307-d106-4414-9268-e46596f5de72",
+            "texture:475982-01328307-d106-4414-9268-e46596f5de72",
+            "texture:475986-01328307-d106-4414-9268-e46596f5de72",
+            "texture:475990-01328307-d106-4414-9268-e46596f5de72"
+          ],
+          "children": [
+            {
+              "sectionFileLocation": "textures/S1 (1).texture"
+            },
+            {
+              "sectionFileLocation": "textures/S2 (2).texture"
+            },
+            {
+              "sectionFileLocation": "textures/S3 (1).texture"
+            },
+            {
+              "sectionFileLocation": "textures/S4 (1).texture"
             }
           ]
         }
@@ -664,282 +614,6 @@
         },
         {
           "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:2975286-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "compressionFormat": 30,
-          "maxResolution": "max512",
-          "method": "fastest",
-          "targetFormat": 1
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:2975288-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "compressionFormat": 30,
-          "maxResolution": "max512",
-          "method": "fastest",
-          "targetFormat": 1
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:2975290-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "compressionFormat": 30,
-          "maxResolution": "max512",
-          "method": "fastest",
-          "targetFormat": 1
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:2975292-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "compressionFormat": 30,
-          "maxResolution": "max512",
-          "method": "fastest",
-          "targetFormat": 1
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:2976136-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "compressionFormat": 30,
-          "maxResolution": "max512",
-          "method": "fastest",
-          "targetFormat": 2
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:2976138-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "compressionFormat": 30,
-          "maxResolution": "max512",
-          "method": "fastest",
-          "targetFormat": 2
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:2976140-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "compressionFormat": 30,
-          "maxResolution": "max512",
-          "method": "fastest",
-          "targetFormat": 2
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:2976142-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "compressionFormat": 30,
-          "maxResolution": "max512",
-          "method": "fastest",
-          "targetFormat": 2
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:2976994-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "compressionFormat": 30,
-          "maxResolution": "max256",
-          "method": "fastest"
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:2976996-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "compressionFormat": 30,
-          "maxResolution": "max256",
-          "method": "fastest"
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:2976998-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "compressionFormat": 30,
-          "maxResolution": "max256",
-          "method": "fastest"
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:2977000-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "compressionFormat": 30,
-          "maxResolution": "max256",
-          "method": "fastest"
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:2977860-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "compressionFormat": 30,
-          "maxResolution": "max256",
-          "method": "fastest",
-          "targetFormat": 2
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:2977862-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "compressionFormat": 30,
-          "maxResolution": "max256",
-          "method": "fastest",
-          "targetFormat": 2
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:2977864-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "compressionFormat": 30,
-          "maxResolution": "max256",
-          "method": "fastest",
-          "targetFormat": 2
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:2977866-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "compressionFormat": 30,
-          "maxResolution": "max256",
-          "method": "fastest",
-          "targetFormat": 2
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:2978734-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "compressionFormat": 30,
-          "maxResolution": "max256",
-          "method": "fastest"
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:2978736-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "compressionFormat": 30,
-          "maxResolution": "max256",
-          "method": "fastest"
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:2978738-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "compressionFormat": 30,
-          "maxResolution": "max256",
-          "method": "fastest"
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:2978740-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "compressionFormat": 30,
-          "maxResolution": "max256",
-          "method": "fastest"
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:2979616-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "compressionFormat": 30,
-          "maxResolution": "max256",
-          "method": "fastest",
-          "targetFormat": 1
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:2979618-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "compressionFormat": 30,
-          "maxResolution": "max256",
-          "method": "fastest",
-          "targetFormat": 1
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:2979620-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "compressionFormat": 30,
-          "maxResolution": "max256",
-          "method": "fastest",
-          "targetFormat": 1
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:2979622-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "compressionFormat": 30,
-          "maxResolution": "max256",
-          "method": "fastest",
-          "targetFormat": 1
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:2980506-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "compressionFormat": 30,
-          "maxResolution": "max256",
-          "method": "fastest",
-          "targetFormat": 1
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:2980508-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "compressionFormat": 30,
-          "maxResolution": "max256",
-          "method": "fastest",
-          "targetFormat": 1
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:2980510-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "compressionFormat": 30,
-          "maxResolution": "max256",
-          "method": "fastest",
-          "targetFormat": 1
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:2980512-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "compressionFormat": 30,
-          "maxResolution": "max256",
-          "method": "fastest",
-          "targetFormat": 1
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:2981404-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "compressionFormat": 30,
-          "maxResolution": "max256",
-          "method": "fastest",
-          "targetFormat": 2
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:2981406-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "compressionFormat": 30,
-          "maxResolution": "max256",
-          "method": "fastest",
-          "targetFormat": 2
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:2981408-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "compressionFormat": 30,
-          "maxResolution": "max256",
-          "method": "fastest",
-          "targetFormat": 2
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:2981410-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "compressionFormat": 30,
-          "maxResolution": "max256",
-          "method": "fastest",
-          "targetFormat": 2
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:2982310-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "compressionFormat": 30,
-          "maxResolution": "max256",
-          "method": "fastest"
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:2982312-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "compressionFormat": 30,
-          "maxResolution": "max256",
-          "method": "fastest"
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:2982314-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "compressionFormat": 30,
-          "maxResolution": "max256",
-          "method": "fastest"
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:2982316-91254125-43cb-48f5-84cf-6d69ea0122a6",
-          "compressionFormat": 30,
-          "maxResolution": "max256",
-          "method": "fastest"
-        },
-        {
-          "modelName": "textureExportConfig",
           "identifier": "textureExportConfig:3710701-91254125-43cb-48f5-84cf-6d69ea0122a6",
           "accuracy": "best"
         },
@@ -1044,13 +718,292 @@
           "modelName": "textureExportConfig",
           "identifier": "textureExportConfig:346162-ffdd604b-6522-4d00-9bbc-b42981b7090e",
           "accuracy": "best",
+          "active": false,
+          "compressionFormat": 30,
           "targetFormat": 1
         },
         {
           "modelName": "textureExportConfig",
           "identifier": "textureExportConfig:346164-ffdd604b-6522-4d00-9bbc-b42981b7090e",
           "accuracy": "best",
+          "active": false,
           "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:333625-01328307-d106-4414-9268-e46596f5de72",
+          "compressionFormat": 30,
+          "maxResolution": "max512",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:333627-01328307-d106-4414-9268-e46596f5de72",
+          "compressionFormat": 30,
+          "maxResolution": "max512",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:333629-01328307-d106-4414-9268-e46596f5de72",
+          "compressionFormat": 30,
+          "maxResolution": "max512",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:333631-01328307-d106-4414-9268-e46596f5de72",
+          "compressionFormat": 30,
+          "maxResolution": "max512",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:333633-01328307-d106-4414-9268-e46596f5de72",
+          "compressionFormat": 30,
+          "maxResolution": "max512",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:333635-01328307-d106-4414-9268-e46596f5de72",
+          "compressionFormat": 30,
+          "maxResolution": "max512",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:333637-01328307-d106-4414-9268-e46596f5de72",
+          "compressionFormat": 30,
+          "maxResolution": "max512",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:333639-01328307-d106-4414-9268-e46596f5de72",
+          "compressionFormat": 30,
+          "maxResolution": "max512",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:334895-01328307-d106-4414-9268-e46596f5de72",
+          "compressionFormat": 30,
+          "maxResolution": "max512",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:334897-01328307-d106-4414-9268-e46596f5de72",
+          "compressionFormat": 30,
+          "maxResolution": "max512",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:334899-01328307-d106-4414-9268-e46596f5de72",
+          "compressionFormat": 30,
+          "maxResolution": "max512",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:334901-01328307-d106-4414-9268-e46596f5de72",
+          "compressionFormat": 30,
+          "maxResolution": "max512",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:334903-01328307-d106-4414-9268-e46596f5de72",
+          "compressionFormat": 30,
+          "maxResolution": "max512",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:334905-01328307-d106-4414-9268-e46596f5de72",
+          "compressionFormat": 30,
+          "maxResolution": "max512",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:334907-01328307-d106-4414-9268-e46596f5de72",
+          "compressionFormat": 30,
+          "maxResolution": "max512",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:334909-01328307-d106-4414-9268-e46596f5de72",
+          "compressionFormat": 30,
+          "maxResolution": "max512",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:336181-01328307-d106-4414-9268-e46596f5de72",
+          "compressionFormat": 30,
+          "maxResolution": "max512",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:336183-01328307-d106-4414-9268-e46596f5de72",
+          "compressionFormat": 30,
+          "maxResolution": "max512",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:336185-01328307-d106-4414-9268-e46596f5de72",
+          "compressionFormat": 30,
+          "maxResolution": "max512",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:336187-01328307-d106-4414-9268-e46596f5de72",
+          "compressionFormat": 30,
+          "maxResolution": "max512",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:336189-01328307-d106-4414-9268-e46596f5de72",
+          "compressionFormat": 30,
+          "maxResolution": "max512",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:336191-01328307-d106-4414-9268-e46596f5de72",
+          "compressionFormat": 30,
+          "maxResolution": "max512",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:336193-01328307-d106-4414-9268-e46596f5de72",
+          "compressionFormat": 30,
+          "maxResolution": "max512",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:336195-01328307-d106-4414-9268-e46596f5de72",
+          "compressionFormat": 30,
+          "maxResolution": "max512",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:436268-01328307-d106-4414-9268-e46596f5de72",
+          "compressionFormat": 30,
+          "maxResolution": "max512",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:436270-01328307-d106-4414-9268-e46596f5de72",
+          "compressionFormat": 30,
+          "maxResolution": "max512",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:436272-01328307-d106-4414-9268-e46596f5de72",
+          "compressionFormat": 30,
+          "maxResolution": "max512",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:436274-01328307-d106-4414-9268-e46596f5de72",
+          "compressionFormat": 30,
+          "maxResolution": "max512",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:437420-01328307-d106-4414-9268-e46596f5de72",
+          "compressionFormat": 30,
+          "maxResolution": "max512",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:437422-01328307-d106-4414-9268-e46596f5de72",
+          "compressionFormat": 30,
+          "maxResolution": "max512",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:437424-01328307-d106-4414-9268-e46596f5de72",
+          "compressionFormat": 30,
+          "maxResolution": "max512",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:437426-01328307-d106-4414-9268-e46596f5de72",
+          "compressionFormat": 30,
+          "maxResolution": "max512",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:438580-01328307-d106-4414-9268-e46596f5de72",
+          "compressionFormat": 30,
+          "maxResolution": "max512",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:438582-01328307-d106-4414-9268-e46596f5de72",
+          "compressionFormat": 30,
+          "maxResolution": "max512",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:438584-01328307-d106-4414-9268-e46596f5de72",
+          "compressionFormat": 30,
+          "maxResolution": "max512",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:438586-01328307-d106-4414-9268-e46596f5de72",
+          "compressionFormat": 30,
+          "maxResolution": "max512",
+          "method": "fastest"
         }
       ]
     },
